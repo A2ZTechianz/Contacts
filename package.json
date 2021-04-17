@@ -32,6 +32,7 @@
     "html-pdf": "^2.2.0",
     "intl": "^1.2.5",
     "into-stream": "^5.1.1",
+    "joi": "^17.4.0",
     "js-base64": "^2.5.1",
     "json-form-data": "^1.7.2",
     "jsonwebtoken": "^8.5.1",
