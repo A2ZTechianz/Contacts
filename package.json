@@ -12,9 +12,7 @@
   },
   "private": true,
   "dependencies": {
-    "@azure/storage-blob": "^12.1.1",
     "@sendgrid/mail": "^7.4.2",
-    "azure-storage": "^2.10.3",
     "base64-js": "^1.3.1",
     "body-parser": "^1.18.2",
     "body-parser-xml": "^2.0.0",
@@ -35,7 +33,6 @@
     "intl": "^1.2.5",
     "into-stream": "^5.1.1",
     "js-base64": "^2.5.1",
-    "jslinq": "^1.0.21",
     "json-form-data": "^1.7.2",
     "jsonwebtoken": "^8.5.1",
     "jspdf": "^1.5.3",
