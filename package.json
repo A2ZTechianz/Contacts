@@ -6,8 +6,8 @@
     "ng": "ng",
     "start": "node server",
     "build": "node server",
-	"postinstall": "npm run build",
-	"heroku-postbuild": "ng build --prod",
+    "postinstall": "npm run build",
+    "heroku-postbuild": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -37,6 +37,7 @@
     "follow-redirects": "^1.13.0",
     "formidable": "^1.2.1",
     "html-pdf": "^2.2.0",
+    "install": "^0.13.0",
     "intl": "^1.2.5",
     "into-stream": "^5.1.1",
     "joi": "^17.4.0",
