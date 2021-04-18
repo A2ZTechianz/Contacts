@@ -188,7 +188,11 @@ module.exports.addContact = function (req, res) {
     try {
         let str_sql = 'call usp_create_contact(?)';
         let params = [
-            JSON.stringify(req.body)
+            req.body.fullName,
+            req.body.mobileNo,
+            req.body.email,
+            req.body.address,
+            req.body.loggedinUserId,
         ]
 
         connection.query(str_sql, [params], function (err, result) {
@@ -232,9 +236,13 @@ module.exports.updateContact = function (req, res) {
 
     try {
         let str_sql = 'call usp_update_contact(?)';
-        req.body.contactId = req.params.contact_id;
+
         let params = [
-            JSON.stringify(req.body)
+            req.body.fullName,
+            req.body.mobileNo,
+            req.body.email,
+            req.body.address,
+            req.params.contact_id,
         ]
 
         connection.query(str_sql, [params], function (err, result) {

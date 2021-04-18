@@ -1,19 +1,19 @@
 {
   "system_config": {
     "db_config": {
-      "host": "mysql-28210-0.cloudclusters.net",
-      "port": 28210,
-      "user": "a2ztechians",
-      "password": "sunearth@2020",
-      "database": "contact"
+      "host": "sql6.freemysqlhosting.net",
+      "port": 3306,
+      "user": "sql6406345",
+      "password": "h9zPR5ci71",
+      "database": "sql6406345"
     },
     "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS,  IT CAN BE ANY STRING",
     "mail_config": {
       "host": "smtp.gmail.com",
       "port": 465,
       "secure": true,
-      "user": "",
-      "pass": "",
+      "user": "a2ztechians@gmail.com",
+      "pass": "sunearth@2020",
       "from": "<np-replay>.com"
     }
   }
