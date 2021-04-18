@@ -6,9 +6,15 @@
     "ng": "ng",
     "start": "node server",
     "build": "node server",
+	"postinstall": "npm run build",
+	"heroku-postbuild": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+  },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
   },
   "private": true,
   "dependencies": {
