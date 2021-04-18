@@ -8,7 +8,7 @@ let jwt = require('jsonwebtoken');
 const expressJwt = require('express-jwt');
 const connection = require('./config/config');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
